@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello world</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background: rgb(224, 224, 224);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 2em 0;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.2s ease-in;
+        }
+
+        li:hover {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0.3);
+        }
+
+        li a {
+            width: 100%;
+            padding: 2em 2em;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+        }
+
+        a:focus li {
+            transform: scale(0.98);
+        }
+    </style>
 </head>
+
 <body>
-    hello world
+    <div class="wrapper">
+        <h1>Shashank's Project</h1>
+        <div class="container">
+            <ul class="project-list">
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/microsoft-landing-page/index.html"
+                        target="_blank">Microsoft Landing Page</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/mob-first-easy-website/index.html"
+                        target="_blank">ACME PHOTOGRPAHY</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/zipcode/index.html"
+                        target="_blank">Zipcode Project</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/lyrics-search/index.html"
+                        target="_blank">Lyrics Search</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/shashank-trove/index.html"
+                        target="_blank">Trove</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/typing-game/index.html" target="_blank">Typing Game</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/movie-booking-seat/index.html" target="_blank">Movie Booking Seat</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/social-media-accordion/index.html" target="_blank">Social Media Accordion</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/portfolio-website-mob-first/index.html" target="_blank">Portfolio</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/itunes-mob-first/index.html" target="_blank">iTunes</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/grid-span-mob-first/index.html" target="_blank">Grid span</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/sliding-form/index.html" target="_blank">Sliding Form</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/mob-first-form/index.html" target="_blank">Mobile First Form</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/product-landing-page/dist/index.html" target="_blank">Product Landing Page</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/hulu-landing-page-mob-first/index.html" target="_blank">Hulu Landing Page</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/shoe-landing-page/index.html" target="_blank">Shoe Product Landing Page</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/creative-agency-mob-first/work.html" target="_blank">Creative Agency Website</a></li>
+                <li><a href="https://frontend.coalition.reviews/shashank/projects/parallax-website/index.html" target="_blank">Parallax Website</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
